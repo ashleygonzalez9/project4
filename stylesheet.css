@@ -1,0 +1,126 @@
+h1 { 
+	text-align: center;
+} 
+
+h2 {
+	font-size: 30px;
+} 
+.interviewsbody {
+	font-family: Georgia;
+}
+
+h4 {
+	margin-right: 20vw;
+} 
+
+.grid2 {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vh;
+}
+
+.box7{
+	grid-column-start:1;
+	grid-column-end: span 1;
+} 
+
+.box8{
+	grid-column-start:2;
+	grid-column-end: span 1;
+} 
+
+.grid { 
+  border: 2px white solid;
+  width: cover;
+  height: cover;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-row: 45% 45% 45%;
+  grid-gap: 2vh;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  border: 3px black solid;
+} 
+.box1{
+	grid-colum-start:2;
+	grid-colum-end: span 1;
+	grid-row-start:1;
+	grid-row-end:span 1;
+
+	
+}
+
+.box2{ 
+	grid-colum-start:3;
+	grid-colum-end: span 1;
+	grid-row-start:1;
+	grid-row-end:span 1;
+	font-size:10px; 
+	
+} 
+
+.box3{ 
+	grid-colum-start:2;
+	grid-colum-end: span 1;
+	grid-row-start:2;
+	grid-row-end:span 1;
+	
+} 
+
+.box4{ 
+	grid-colum-start:3;
+	grid-colum-end: span 1;
+	grid-row-start:2;
+	grid-row-end:span 1;
+	
+}
+
+.box5{ 
+	grid-colum-start:2;
+	grid-colum-end: span 1;
+	grid-row-start:3;
+	grid-row-end:span 1;
+	
+} 
+.box6{
+	grid-colum-start:3;
+	grid-colum-end: span 1;
+	grid-row-start:3;
+	grid-row-end:span 1;
+}
+
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	width:100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 30px;
+	center
+}
+li a:hover {
+    background-color: #111;
+}
+
+.dropdown {
+	float:left;
+	overflow: hidden;
+}
