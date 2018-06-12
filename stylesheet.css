@@ -45,7 +45,7 @@ margin-left;
 } 
 
 .prosbody {
-	background: url("images/prosbackground.png") ;
+	background: url("images/prosbackground.png");
 } 
 
 
@@ -183,7 +183,7 @@ grid-column-end: span 1;
 } 
 
 .box15 {
-	grid-column-start: 2
+	grid-column-start: 2;
 	grid-column-end: span 1;
 } 
  
@@ -208,7 +208,7 @@ grid-column-end: span 1;
 
 .grid7 { 
 	display:grid;
-	grid-template-columns: 1fr 1fr ;
+	grid-template-columns: 1fr 1fr;
 	grid-template-row: 45& 45%; 
 	border-color: black;
 	font-size: 35px;
@@ -262,7 +262,7 @@ grid-column-end: span 1;
 
 .navbar ul { 
 list-style-type:none;
-margin:0
+margin:0;
 padding:0;
 overflow: hidden;
 background-color: white;
