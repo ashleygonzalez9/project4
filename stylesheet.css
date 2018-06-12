@@ -210,33 +210,42 @@ grid-column-end: span 1;
 	display:grid;
 	grid-template-columns: 1fr 1fr ;
 	grid-template-row: 45& 45%; 
-	border: black;
+	border-color: black;
 	font-size: 35px;
+
 } 
 
 .box18 { 
 	grid-column-start: 1;
 	grid-column-end: span 1;
+	border: black solid 5px;
+	
 } 
 
 .box19 { 
 	grid-column-start: 2;
 	grid-column-end: span 1;
+	border: black solid 5px;
+	
 } 
 
 .box20 {
 	grid-column-start: 1;
 	grid-column-end: span 1;
-	grid-row-start:2;
+	grid-row-start: 2;
 	grid-row-end:span 1;
+	border: black solid 5px;
+	
 	
 }
 
 .box21 { 
-	grid-column-start: 1
+	grid-column-start: 2;
 	grid-column-end: span 1;
-	grid-row-start: 3;
+	grid-row-start: 2;
 	grid-column-end: span 1;
+	border: black solid 5px;
+
 } 
 	
 	
